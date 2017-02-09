@@ -45,7 +45,7 @@ public class GreetController {
         if (user != null) {
             return "Hello, " + user.getFirstName() + " " + user.getLastName() + "!";
         } else {
-            return "No such user exists! Use 'emuster' or 'jdoe'";
+            return "No such user exists! Use 'glamperi' or 'time'";
         }
     }
 }
